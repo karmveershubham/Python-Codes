@@ -1,4 +1,4 @@
-def list_prime(n):#function to print the list of prime numbers in given number.
+def list_prime(n):#function to print the list of prime numbers from 2 to that  given number.
     print('The list of prime numbers in range 1 to', n,'is:')
 
     for a in range(2,n+1):
