@@ -1,3 +1,5 @@
+"""OOP in python creating rectangl class and calculating it's perimeter and area."""
+
 class rectangle:  
     def __init__(self,length,breadth):#constructor
         self.breadth=breadth
