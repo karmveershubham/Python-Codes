@@ -1,4 +1,4 @@
-def check_num(list):
+def check_num(list):  #checking if list contain any numeric value.
     for elements in list:
         if not str(elements).isdigit():
             print("\nAll elements are not Numbers.")
@@ -7,7 +7,7 @@ def check_num(list):
     print("\nAll elements are numbers")
     return True
 
-def count_odd(list):
+def count_odd(list):   # counting odd values.
     if check_num(list)==True:
         count=0
         for elements in list:
@@ -17,7 +17,7 @@ def count_odd(list):
     else:
         print("List contains non-numeric values so can't count odd number.")
 
-def large_string(list):
+def large_string(list):  #Getting the largest string.
     if check_num(list)==True:
         print("Can't perform this operation on integers.")
              
@@ -28,7 +28,7 @@ def large_string(list):
                 largest = i
         print("Largest string in the list is:",largest)
 
-def count_alpha_num(list):
+def count_alpha_num(list):  # counting alphanumeric strings in the list.
     num=0
     for items in list:
         if str(items).isdigit()==True:
