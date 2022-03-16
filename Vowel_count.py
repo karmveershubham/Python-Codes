@@ -1,3 +1,5 @@
+'''Vowel count in a file using file handling in python.'''
+
 def f_hand(file):
     f=open(file,'r')
     str=f.read()
