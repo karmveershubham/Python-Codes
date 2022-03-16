@@ -1,3 +1,5 @@
+'''Result.py is program that take input from user and show them their average marks.'''
+
 def avgMarks(marks_list,Passmarks):# Function to find The average Percentage of Marks.
     
     for marks in marks_list:
