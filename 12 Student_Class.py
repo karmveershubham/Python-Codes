@@ -1,3 +1,5 @@
+'''OOP in python creating class student getting their marks and printing their average scores.'''
+
 class Students:
     MaxAvg=0
     def __init__(self,name,m1=0,m2=0,m3=0):
