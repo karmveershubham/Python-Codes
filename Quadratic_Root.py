@@ -1,3 +1,5 @@
+#This program is for finding the roots of given quadratic equation.
+
 import math
 
 def Quad_eqn(a,b,c):
