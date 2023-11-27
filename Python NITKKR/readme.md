@@ -1,2 +1,2 @@
 Use fibonacci 
-and fibonacci result in same folder for print fibonacci question
+and fibonacci run in same folder for print fibonacci question
